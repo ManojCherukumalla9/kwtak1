@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+hr {
+  background-color: #fd841f;
+  width: 200px;
+  height: 20px;
+  margin: 15px auto;
+}
+.section-header {
+  text-align: center;
+  padding: 10px;
+}
+.section-header h2 {
+  color: orange;
+  font-size: 40px;
+}
+.man {
+  font-size: 20px;
+}
+.box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url("img/1.jpg");
+  background-size: cover;
+  color: white;
+}
+.box2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/2.jpg");
+  color: white;
+}
+.box3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/3.jpg");
+  color: white;
+}
+.box4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/4.jpg");
+  color: white;
+}
+.box5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/5.jpg");
+  color: white;
+}
+.box6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/6.jpg");
+  color: white;
+}
+.box7 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/7.jpg");
+  color: white;
+}
+.box8 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/8.jpg");
+  color: white;
+}
+.box9 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+
+  background-image: url("img/9.jpg");
+  color: white;
+}
+.box10 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/10.jpg");
+
+  color: white;
+}
+.box11 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/11.jpg");
+
+  color: white;
+}
+.box12 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/12.jpg");
+
+  color: white;
+}
+.box13 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/11.jpg");
+
+  color: white;
+}
+.box14 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/14.jpg");
+
+  color: white;
+}
+.box15 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/6.jpg");
+
+  color: white;
+}
+.box16 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/10.jpg");
+
+  color: white;
+}
+.box17 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/4.jpg");
+
+  color: white;
+}
+.box18 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("img/2.jpg");
+
+  color: white;
+}
+
+.container-fluid {
+  height: 250px;
+}
+.box1:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box1 {
+  transition: all 0.5s;
+}
+.box2:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box2 {
+  transition: all 0.5s;
+}
+.box3:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box3 {
+  transition: all 0.5s;
+}
+
+.box4:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box4 {
+  transition: all 0.5s;
+}
+.box5:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box5 {
+  transition: all 0.5s;
+}
+.box6:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box6 {
+  transition: all 0.5s;
+}
+.box7:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+.box7 {
+  transition: all 0.5s;
+}
+.box8:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box8 {
+  transition: all 0.5s;
+}
+.box9:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box9 {
+  transition: all 0.5s;
+}
+.box10:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box10 {
+  transition: all 0.5s;
+}
+.box11:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box11 {
+  transition: all 0.5s;
+}
+.box12:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box12 {
+  transition: all 0.5s;
+}
+.box13:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box13 {
+  transition: all 0.5s;
+}
+.box14:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box14 {
+  transition: all 0.5s;
+}
+.box15:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box15 {
+  transition: all 0.5s;
+}
+.box16:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box16 {
+  transition: all 0.5s;
+}
+.box17:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box17 {
+  transition: all 0.5s;
+}
+.box18:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.box18 {
+  transition: all 0.5s;
+}
